@@ -1,0 +1,292 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4167678600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login to account with credentials",
+        "description": "",
+        "id": "login-into-account;login-to-account-with-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 800855500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 994737200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to \"http://www.webdriveruniversity.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.webdriveruniversity.com",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginSteps.user_navigates_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170495700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on the on the login portal button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_the_on_the_login_portal_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1174648600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the \"webdriver\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.user_enters_the_username(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71819200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the \"webdriver\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.user_enters_the_password(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64345700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15091500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user should be presented with following prompt alert \"validation failed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "validation failed",
+                  "offset": 58
+                }
+              ],
+              "location": "LoginSteps.the_user_should_be_presented_with_following_prompt_alert(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3370219600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login to account with credentials",
+        "description": "",
+        "id": "login-into-account;login-to-account-with-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 757779700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 908269300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to \"http://www.webdriveruniversity.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.webdriveruniversity.com",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginSteps.user_navigates_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 197175300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on the on the login portal button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_the_on_the_login_portal_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1157285800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the \"webdriver\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.user_enters_the_username(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85443900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the \"webdriver123\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver123",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.user_enters_the_password(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68374300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10371200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user should be presented with following prompt alert \"validation succeeded\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "validation succeeded",
+                  "offset": 58
+                }
+              ],
+              "location": "LoginSteps.the_user_should_be_presented_with_following_prompt_alert(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into account",
+    "description": "",
+    "id": "login-into-account",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
